@@ -1,8 +1,1 @@
-#!/usr/bin/env bash
-#Display all active IPv4 IPs on the machine
-
-# cannot be used as the task wants us to use ifconig --> ip -o -4 addr show
-
-ifconfig | awk '/inet / {print $2}'
-
-
+©
